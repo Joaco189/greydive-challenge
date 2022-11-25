@@ -1,0 +1,93 @@
+.test-page-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.test-page-content{
+    width: 80%;
+    display: flex;
+    max-width: 90rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-transcription-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.video-container{
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-inline: 2rem;
+}
+
+.video-container iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.transcription-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 70%;
+}
+
+.transcription-container h2{
+    font-weight: 400;
+}
+
+.transcription-content{
+    max-height: 15rem;
+    overflow-y: auto;
+}
+
+.task-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.task-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.task:first-child{
+    border-top: 1px solid #fff;
+}
+
+.task-number{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.task-response{
+    color:rgb(0, 168, 180);
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .video-transcription-container{
+        flex-direction: column;
+    }
+}
