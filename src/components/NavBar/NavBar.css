@@ -1,0 +1,33 @@
+.navbar-container{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.55rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff52;
+}
+
+.navbar-title{
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.burguer-button{
+    display: none;
+}
+
+.burguer-button svg{
+    fill: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .burguer-button{
+        display: block;
+    }
+    .navbar-title{
+        font-size: 1.3rem;
+    }
+}
